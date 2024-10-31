@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "Outfit-bold";
+	src: url("./Outfit/static/Outfit-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Outfit-regular";
+	src: url("./Outfit/static/Outfit-Regular.ttf");
+}
+
+p {
+	font-size: 15px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	padding-bottom: 40px;
+	background-color: white;
+	width: 320px;
+	height: 499px;
+	border-radius: 20px;
+	box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.4);
+}
+
+html {
+	background-color: rgb(213, 225, 239);
+}
+
+.text-container {
+	width: 288px;
+	height: 131px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	border-radius: 20px;
+	margin-bottom: 24px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+	background-color: rgb(213, 225, 239);
+	margin: 0; /* Remove default body margin */
+}
+
+#heading {
+	color: rgb(31, 49, 79);
+	font-family: "Outfit-Bold";
+	letter-spacing: 0px;
+	line-height: 120%;
+	font-size: 22px;
+}
+
+#subheading {
+	color: rgb(104, 119, 141);
+	font-family: "Outfit-regular";
+	letter-spacing: 0.2px;
+	line-height: 140%;
+	font-size: 15px;
+}
